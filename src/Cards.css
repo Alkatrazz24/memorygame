@@ -1,0 +1,25 @@
+.Cards{
+    height: 150px;
+    width: 100px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: #282c34;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition:transform 1s;
+    float: left;
+    cursor: pointer;
+
+}
+.Cards.true{
+    color: black;
+    transform: rotateY(180deg);
+}
+
+
+
+
+
